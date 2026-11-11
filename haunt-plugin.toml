@@ -1,0 +1,14 @@
+[plugin]
+id = "dev.haunt.commands"
+name = "Commands"
+description = "Your own ⌘K commands that type text into the current tab"
+version = "0.1.0"
+api = "0.4"
+entry = "target/wasm32-wasip2/release/haunt_plugin.wasm"
+license = "MIT"
+
+[capabilities]
+pty_type = true
+
+[settings]
+commands = { type = "list", default = [], description = "Commands for the palette: each an id, a name, the text to type into the current tab and, optionally, enter = true to press Return after it" }
