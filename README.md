@@ -54,7 +54,7 @@ cargo test
 haunt plugin install .
 ```
 
-It needs Haunt with `haunt:plugin@0.4` (`api = "0.4"`) and plugin settings from config.toml. `wit/haunt-plugin.wit` is a copy of Haunt's, pinned at that version.
+It needs Haunt with `haunt:plugin@0.5` (`api = "0.5"`) and plugin settings from config.toml. `wit/haunt-plugin.wit` is a copy of Haunt's, pinned at that version.
 
 ## Licence
 
